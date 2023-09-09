@@ -1,0 +1,31 @@
+1)What is JQuery?
+	JQuery is a lightweight, write less, do more, javascript library.
+	The purpose of jQuery is to make it much easier to use javascript on your website.
+	jQuery takes a lot of common tasks that require many lines of js code to accomplish & wrap them into methods that you can call with a single line code.
+
+
+(2)How to apply CSS using jQuery, how to add class & remove class in jquery, jQuery animation?
+	$(“p”).css(“background-color”);
+	$(document).ready(function(){
+$(“#btn1”).click(function(){
+$(“#head”).addClass(“head”)
+})
+$(“#btn1”).click(function(){
+$(“#head”).removeClass(“head”)
+})
+})
+
+
+(3)How to create slider with animation?
+	<script>
+      $(function () {
+        $("#gfg").slider({ animate: true });
+      });
+    </script>
+  </head>
+  <body>
+
+    <h1>GeeksforGeeks</h1>
+<h2>jQuery UI | slider animate option></h2>
+    <divid="gfg"></div>
+  </body>
